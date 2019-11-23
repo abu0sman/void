@@ -1,0 +1,60 @@
+/* Строка заголовка в диалогах */
+.ui-dialog .ui-dialog-titlebar {
+    padding: .1em 2em;
+    position: relative;
+	
+}
+
+/* Главное меню */
+.ui-menu {
+	width: 200px;
+	
+}
+
+/* Цвет рабочей области */
+.ui-widget-content {
+	background: #FEFEFE;
+/* 	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s; */
+
+}
+
+/* Шрифт в  табах */
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+    font-size: 0.8em;
+	
+}
+
+/* Шрифт в пунктах меню */
+.ui-widget {
+    font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+    font-size: 0.95em;
+		overflow: auto;
+		/* //height: 76vh; */
+}
+
+.ui-widget.ui-widget-content {
+    border: 1px solid #6C879C;
+	
+}
+
+/* Толщина вкладок в табах  */
+.ui-helper-reset {
+    line-height: 0.5;
+	
+}
+/* Размер шрифта в акордионе */
+.ui-widget .ui-widget {
+    /* font-size: 9pt; */
+	line-height: 12pt;
+	
+}
+
+.ui-dialog .ui-dialog-content {
+overflow: hidden;
+}
+
+#menu_a {
+	text-decoration: none;
+}
