@@ -28,16 +28,16 @@ echo '<div id="control_panel" class="form-inline">';
 
 // if (($group_id == 1) OR ($ugroup == $slave_id)){
 	
-	echo '<div id="cp_separator">&nbsp</div>';	
+	//echo '<div id="cp_separator">&nbsp</div>';	
 
 	//echo '<button id="b_order_fair" type="button" class="btn btn-outline-info btn-sm mr-2">Ярмарка задач</button>';
 	//echo '<button id="b_insert" type="button" class="btn btn-success mr-2" data-toggle="modal">Создать задачу</button>';
-	echo '<button id="back" class="btn btn-outline-success btn-sm mr-2" name="page_name" value="shop_order">Задачи</button>';
-	echo '<form method="POST">';
+	//echo '<button id="back" class="btn btn-outline-success btn-sm mr-2" name="page_name" value="shop_order">Задачи</button>';
+	//echo '<form method="POST">';
 		
-		echo '<button id="b_notes" class="btn btn-outline-success btn-sm mr-2" name="page_name" value="shop_note">Заметки</button>';
+		//echo '<button id="b_notes" class="btn btn-outline-success btn-sm mr-2" name="page_name" value="shop_note">Заметки</button>';
 		//echo '<button class="btn btn-outline-info btn-sm" name="page_name" value="shop_archive">Архив</button>';
-	echo '</form>';
+	//echo '</form>';
 	echo '<div class="ml-auto form-inline">';
 	echo '<button id="b_clear_search" class="btn btn-outline-danger btn-sm mr-1" title="Очистить"><span class="ui-icon ui-icon-close"></span></button>';
 	echo '<input type="text" class="form-control form-control-sm mr-1" id="find_area" value="'.$find_string.'">';

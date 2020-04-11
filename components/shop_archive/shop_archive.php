@@ -3,6 +3,8 @@
 //echo '<div id="d_add_order" class="modal"></div>';
 //echo '<div id="d_adv_search" class="modal"></div>';
 
+$pn = "archive";
+
 if(isset($_POST['page_id']))
 	$actual_page = $_POST['page_id'];
 else $actual_page = 1;
@@ -11,9 +13,13 @@ if (isset($_POST['find_string']))
 	$find_string = $_POST['find_string'];
 else $find_string = "";
 
+//Место для таб элементов
+include "../tabs/tabs.php";
+
 //Панель инструментов
 include "../shop_archive/control_panel.php";
 echo '<h2>Архив</h2>';
+
 //Основная часть
 echo '<div id="shop_archive_current">';
 echo '</div>';

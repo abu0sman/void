@@ -34,13 +34,13 @@ echo '<div id="control_panel" class="form-inline">';
 	echo '<div id="cp_separator">&nbsp</div>';	
 	//echo '<button id="b_order_fair" type="button" class="btn btn-outline-info btn-sm mr-2">Ярмарка задач</button>';
 	echo '<button id="b_insert" type="button" class="btn btn-success mr-2" data-toggle="modal">Создать заметку</button>';
-	echo '<div id="cp_separator"></div>';
+	//echo '<div id="cp_separator"></div>';
 	
 	
-	echo '<form method="POST">';
-		echo '<button class="btn btn-outline-success btn-sm mr-2">Задачи</button>';
-		echo '<button class="btn btn-outline-info btn-sm" name="page_name" value="shop_archive">Архив</button>';
-	echo '</form>';
+	//echo '<form method="POST">';
+	//	echo '<button class="btn btn-outline-success btn-sm mr-2">Задачи</button>';
+	//	echo '<button class="btn btn-outline-info btn-sm" name="page_name" value="shop_archive">Архив</button>';
+	//echo '</form>';
 	
 	echo '<div class="ml-auto form-inline">';
 	echo '<button id="b_clear_search" class="btn btn-outline-danger btn-sm mr-1" title="Очистить"><span class="ui-icon ui-icon-close"></span></button>';

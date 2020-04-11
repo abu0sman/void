@@ -4,7 +4,7 @@ include '../../db_connect.php';
 echo '<div class="modal-dialog" role="document">';
 	echo '<div class="modal-content">';
 		echo '<div class="modal-header">';
-			echo '<h5 class="modal-title">Создание задачи</h5>';
+			echo '<h5 class="modal-title">Создание заметки</h5>';
 			echo '<button class="close" data-dismiss="modal">x</button>';
 		echo '</div>';
 		

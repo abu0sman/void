@@ -3,6 +3,7 @@
 echo '<div id="d_add_order" class="modal"></div>';
 //echo '<div id="d_adv_search" class="modal"></div>';
 
+$pn = "order";
 
 if(isset($_POST['page_id']))
 	$actual_page = $_POST['page_id'];
@@ -12,10 +13,13 @@ if (isset($_POST['find_string']))
 	$find_string = $_POST['find_string'];
 else $find_string = "";
 
+//Место для таб элементов
+include "../tabs/tabs.php";
 
 //Панель инструментов
 include "../shop_order/control_panel.php";
 echo '<h2>Мои задачи</h2>';
+
 //Основная часть
 echo '<div id="shop_order_current">';
 echo '</div>';
