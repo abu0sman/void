@@ -31,3 +31,15 @@ $("#b_archs").on( "click", function() {
 		}
 	})
 });
+
+$("#b_fair").on( "click", function() {
+	$.ajax({
+		url: "../shop_fair/shop_order.php",
+		data: {page_name: 'main'},
+		type: "POST",
+		cache: false,
+		success: function(result){
+			$('#sub_frame').html(result);
+		}
+	})
+});
