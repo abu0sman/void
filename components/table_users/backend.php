@@ -13,7 +13,7 @@ if(isset($_POST['badd_confirm_item'])){
 	//2.  Требуется полное наименование департамента
 	$password = $_POST['cre_password'];
 	$RowQuery[] = 'password';
-	$AddQuery[] = $password;
+	$AddQuery[] = md5($password);
 	
 	//3. Если заполнен ИНН
 	if (!empty($_POST['cre_soname'])) {

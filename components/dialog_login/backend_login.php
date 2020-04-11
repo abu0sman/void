@@ -5,7 +5,7 @@ if (isset($_POST['check_usr'])) {
 	$Ppassword = md5($_POST['Hpassword']);
 	
 	$login_query_sql = "SELECT * FROM m_account_users WHERE login = '$Plogin' AND password = '$Ppassword'";
-	$login_pass = $pdo->query($login_query_sql)->fetchColumn();
+	$login_pass = count ($pdo->query($login_query_sql));
  	if ($login_pass == 1) {
 		//Создаем сессию, передаем управление другому скрипту
 		session_start();
